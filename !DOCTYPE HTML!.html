@@ -1,0 +1,58 @@
+<!DOCTYPE HTML!>
+ <html lang="pt-br">
+<head>
+<!--Básico-->
+<meta http-esquiv="Content-Type" content="text/html; charset=uft-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">   
+<!--Site metas-->
+<meta name="viewport" content="widht=device-width, mininum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#1C1C1C">
+<!--site metas-->
+<title>Biblioteca online - Alexandrina</title>
+<link rel="icon" type="imagem/ico" href="/imagens/favicon.com"/>
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container">
+
+<!--meu início-->
+<div class="header">
+<div id="menu">
+<a href="index.html"><img class="logo" src="imagens/lion1.webp" width="200" heigth="50"/></a>
+  <ul class="navbar">
+   <li> <a herf="index.html">Home</a></li>
+    <li> <a herf="sobre.html">Sobre</a></li>
+     <li> <a herf="contato.html">Contato</a></li>
+     </ul>
+      </div>
+      </div>
+<!--Meu fim-->
+<div class="content"></div>
+<h1>contato</h1>
+
+<h2> Na página de contato com alerta de envio de e-mail </h2>
+<!--Chama o javascript de aviso-->
+<script script type="text/javascript" src="js/personalizado.js"></script>
+<!--Formulário de envio de e-mail-->
+
+<div class="contato">
+<form class="form" method="POST" action="php/enviar.php" name="formcontato">
+<input class="field" name="email" placeholder="E-mail">
+<input class="field" name="name" placeholder="Nome">    
+<textarea class="field" name="message" placeholder="Digite seu comentário."></textarea>
+<input class="field" type="submit" name="enviar" onclick="return validar_formcontato()">
+</form>
+</div>
+
+<!--Fim do conteúdo-->
+
+<div class="footer">
+<p>Todos os direitos reservados ao Guilherme | <a href="http//www.alunogui.com.br">www.alunogui.com.br</a></p>
+<!--FIm . footer-->
+
+</div>
+
+</body>
+
+</html>!
